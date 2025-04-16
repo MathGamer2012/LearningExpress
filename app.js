@@ -6,7 +6,7 @@ app.get('/', (req, res) => { //creating a get request for the root path
   res.send('<h1> Hello, my name is Ishaan <h1>'); //sending a response of hello world
 }); //end of the get request
 
-const PORT = process.env.PORT || 3000; //(3000 is the default port), creats a server with the port 5000 
+const PORT = process.env.PORT || 5000; //(3000 is the default port), creats a server with the port 5000 
 
 app.listen(PORT, () => console.log(`Server started on port:${PORT}`)); //listening to the port and logging the message to the console
 //enter "node myapp on terimnal to see the output"
