@@ -25,3 +25,12 @@ app.listen(PORT, () => console.log(`Server started on port:${PORT}`)); //listeni
 //git push origin (branch name) (to push the changes to the branch)
 
 //Continue: https://olympus.mygreatlearning.com/courses/105615/modules/items/5073525?pb_id=581
+
+
+//For making a new express project: 
+//Go to command prompt and type:
+//cd express
+//mkdir (name of project)
+//cd (name of project)
+//npm init   
+//npm i express
