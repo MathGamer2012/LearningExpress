@@ -34,3 +34,6 @@ app.listen(PORT, () => console.log(`Server started on port:${PORT}`)); //listeni
 //cd (name of project)
 //npm init   
 //npm i express
+
+//To run the node enter: 
+//node (name of app.js file)
